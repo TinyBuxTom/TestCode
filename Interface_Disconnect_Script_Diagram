@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T08:45:56.885Z" agent="5.0 (Windows)" etag="oZleEm0NaRT5x9i0w-sr" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T13:09:38.752Z" agent="5.0 (Windows)" etag="f2CmzCLJfDctCqZSClR1" version="20.4.0" type="github">
   <diagram id="uV7YTck49gkhAqPL5iR0" name="Page-1">
-    <mxGraphModel dx="1422" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,7 @@
         <mxCell id="08vmVcg9fmkPuz1mkSFv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-36" target="08vmVcg9fmkPuz1mkSFv-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="08vmVcg9fmkPuz1mkSFv-36" value="lastIfDiscEventTime =($lastIfDiscEvent).TimeCreated" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="08vmVcg9fmkPuz1mkSFv-36" value="&amp;nbsp;Get time of $lastIfDiscEvent (lastIfDiscEventTime)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="395" y="214" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-40" target="08vmVcg9fmkPuz1mkSFv-49">
@@ -129,8 +129,8 @@
         <mxCell id="08vmVcg9fmkPuz1mkSFv-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-43" target="08vmVcg9fmkPuz1mkSFv-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="08vmVcg9fmkPuz1mkSFv-43" value="lastBootUptime = (Get-CimInstance -ClassName win32_operatingsystem).LastBootUpTime" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="395" y="394" width="380" height="40" as="geometry" />
+        <mxCell id="08vmVcg9fmkPuz1mkSFv-43" value="get lastBootUptime" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="394" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-47" value="lastIfDiscEventTimeMin = $lastIfDiscEventTime.addMinutes(-1)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="395" y="334" width="380" height="40" as="geometry" />
@@ -147,8 +147,27 @@
         <mxCell id="08vmVcg9fmkPuz1mkSFv-51" value="$isReboot = True" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="492.5" y="574" width="185" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="08vmVcg9fmkPuz1mkSFv-58" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-53" target="08vmVcg9fmkPuz1mkSFv-57">
+          <mxGeometry x="-0.0323" y="12" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="08vmVcg9fmkPuz1mkSFv-60" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-53" target="08vmVcg9fmkPuz1mkSFv-59">
+          <mxGeometry x="-0.0323" y="-12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-53" value="lastBootUptime &amp;gt; lastIfDiscEventTimeMin &amp;amp;&amp;amp; lastBootUptime &amp;lt; lastIfDiscEventTimePlus" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="427.5" y="640" width="315" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="08vmVcg9fmkPuz1mkSFv-56" value="print &quot;Interface is Disconnected.&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="140" y="540" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="08vmVcg9fmkPuz1mkSFv-57" value="print &quot;Disconnect event was a reboot or startup.&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="820" y="682" width="285" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="08vmVcg9fmkPuz1mkSFv-59" value="lastIfDiscEventTimePlus + 1 &amp;gt; lastBootUptime || lastIfDiscEventTimeMin - 1 &amp;lt; lastBootUptime" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="35" y="640" width="315" height="124" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

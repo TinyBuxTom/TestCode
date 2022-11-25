@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T13:09:38.752Z" agent="5.0 (Windows)" etag="f2CmzCLJfDctCqZSClR1" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T13:11:27.097Z" agent="5.0 (Windows)" etag="D8SS9LTzinXsf9zmXLJj" version="20.4.0" type="github">
   <diagram id="uV7YTck49gkhAqPL5iR0" name="Page-1">
     <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -158,16 +158,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-53" value="lastBootUptime &amp;gt; lastIfDiscEventTimeMin &amp;amp;&amp;amp; lastBootUptime &amp;lt; lastIfDiscEventTimePlus" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="427.5" y="640" width="315" height="124" as="geometry" />
+          <mxGeometry x="427.5" y="640" width="315" height="160" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-56" value="print &quot;Interface is Disconnected.&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="140" y="540" width="225" height="40" as="geometry" />
+          <mxGeometry x="80" y="560" width="225" height="40" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-57" value="print &quot;Disconnect event was a reboot or startup.&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="820" y="682" width="285" height="40" as="geometry" />
+          <mxGeometry x="820" y="700" width="285" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="08vmVcg9fmkPuz1mkSFv-62" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-59" target="08vmVcg9fmkPuz1mkSFv-56">
+          <mxGeometry y="-17" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-59" value="lastIfDiscEventTimePlus + 1 &amp;gt; lastBootUptime || lastIfDiscEventTimeMin - 1 &amp;lt; lastBootUptime" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="35" y="640" width="315" height="124" as="geometry" />
+          <mxGeometry x="35" y="640" width="315" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

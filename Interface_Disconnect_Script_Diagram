@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T07:57:56.499Z" agent="5.0 (Windows)" etag="9RPOfZ39lBGX78mDagOZ" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T08:01:11.016Z" agent="5.0 (Windows)" etag="-xM94ytTKkbr3WCP_O2E" version="20.4.0" type="github">
   <diagram id="uV7YTck49gkhAqPL5iR0" name="Page-1">
     <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -143,6 +143,9 @@
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-51" value="$isReboot = True" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="542.5" y="570" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="08vmVcg9fmkPuz1mkSFv-53" value="lastBootUptime &amp;gt; lastIfDiscEventTimeMin &amp;amp;&amp;amp; lastBootUptime &amp;lt; lastIfDiscEventTimePlus" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="50" y="380" width="315" height="124" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T13:21:58.025Z" agent="5.0 (Windows)" etag="GeaNmcfLmTyS1EsqyZ74" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T13:22:38.097Z" agent="5.0 (Windows)" etag="FNlbRI_Das3ekFEP5toI" version="20.4.0" type="github">
   <diagram id="uV7YTck49gkhAqPL5iR0" name="Page-1">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -174,8 +174,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="08vmVcg9fmkPuz1mkSFv-57" value="print &quot;Disconnect event was a reboot or startup.&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="865" y="700" width="285" height="40" as="geometry" />
+        <mxCell id="08vmVcg9fmkPuz1mkSFv-57" value="Write-Host &quot;Disconnect event was a reboot or startup.&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="840" y="700" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-62" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-59" target="08vmVcg9fmkPuz1mkSFv-56">
           <mxGeometry y="23" relative="1" as="geometry">
@@ -212,8 +212,14 @@
         <mxCell id="08vmVcg9fmkPuz1mkSFv-65" value="Write-Host $lastIfDiscEvent.Message" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="502.5" y="1040" width="255" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="08vmVcg9fmkPuz1mkSFv-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-66" target="08vmVcg9fmkPuz1mkSFv-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-66" value="Write-Host $lastIfDiscEvent.ProviderName" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="502.5" y="1120" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="08vmVcg9fmkPuz1mkSFv-71" value="Exit Program" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1200.5" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

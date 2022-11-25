@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T08:01:11.016Z" agent="5.0 (Windows)" etag="-xM94ytTKkbr3WCP_O2E" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T08:26:05.696Z" agent="5.0 (Windows)" etag="mSP0zjMZfRYYbpoa7wy2" version="20.4.0" type="github">
   <diagram id="uV7YTck49gkhAqPL5iR0" name="Page-1">
-    <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,8 +53,8 @@
         <mxCell id="08vmVcg9fmkPuz1mkSFv-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-16" target="08vmVcg9fmkPuz1mkSFv-36">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="635" y="190" />
-              <mxPoint x="635" y="190" />
+              <mxPoint x="585" y="190" />
+              <mxPoint x="585" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -105,47 +105,47 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-36" value="lastIfDiscEventTime =($lastIfDiscEvent).TimeCreated" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="445" y="210" width="380" height="40" as="geometry" />
+          <mxGeometry x="395" y="214" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-40" target="08vmVcg9fmkPuz1mkSFv-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-40" value="print $lastIfDiscEventTime" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="542.5" y="450" width="185" height="40" as="geometry" />
+          <mxGeometry x="492.5" y="454" width="185" height="40" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-41" target="08vmVcg9fmkPuz1mkSFv-47">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="635" y="330" as="targetPoint" />
+            <mxPoint x="585" y="334" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-41" value="lastIfDiscEventTimePlus = $lastIfDiscEventTime.addMinutes(1)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="445" y="270" width="380" height="40" as="geometry" />
+          <mxGeometry x="395" y="274" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-47" target="08vmVcg9fmkPuz1mkSFv-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="635" y="370" as="sourcePoint" />
+            <mxPoint x="585" y="374" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-43" target="08vmVcg9fmkPuz1mkSFv-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-43" value="lastBootUptime = (Get-CimInstance -ClassName win32_operatingsystem).LastBootUpTime" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="445" y="390" width="380" height="40" as="geometry" />
+          <mxGeometry x="395" y="394" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-47" value="lastIfDiscEventTimeMin = $lastIfDiscEventTime.addMinutes(-1)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="445" y="330" width="380" height="40" as="geometry" />
+          <mxGeometry x="395" y="334" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="08vmVcg9fmkPuz1mkSFv-49" target="08vmVcg9fmkPuz1mkSFv-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-49" value="print $lastBootUptime" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="542.5" y="510" width="185" height="40" as="geometry" />
+          <mxGeometry x="492.5" y="514" width="185" height="40" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-51" value="$isReboot = True" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="542.5" y="570" width="185" height="40" as="geometry" />
+          <mxGeometry x="492.5" y="574" width="185" height="40" as="geometry" />
         </mxCell>
         <mxCell id="08vmVcg9fmkPuz1mkSFv-53" value="lastBootUptime &amp;gt; lastIfDiscEventTimeMin &amp;amp;&amp;amp; lastBootUptime &amp;lt; lastIfDiscEventTimePlus" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="50" y="380" width="315" height="124" as="geometry" />
+          <mxGeometry x="427" y="640" width="315" height="124" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
